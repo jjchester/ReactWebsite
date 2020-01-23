@@ -1,8 +1,42 @@
-$mycolor: red;
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+$primary: rgb(111, 0, 255);
+$primarygray: rgb(56, 58, 63);
+
+
+body {
+    margin: 0;
+    font-family: 'Nunito', 'sans-serif';
+    font-size: 18px;
+    font-palette: $primarygray;
+}
+
+
+h1 {
+  margin-top: 2em;
+  color: $primarygray;
+}
 
 h2 {
-    color: $mycolor;
+  margin-top: 2em;
+  color: $primarygray;
 }
-header {
-    color: $mycolor;
+
+h4 {
+  margin-top: 2em;
+  color: $primarygray;
+}
+
+.details {
+  color: $primarygray;
+}
+
+.details-highlight {
+  color: $primarygray;
+  border-top: 2px solid #cc2b39;
+}
+
+.imgsrc {
+  font-size: 0.15em;
 }
